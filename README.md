@@ -13,3 +13,10 @@ Finally, we unified the data in a single Dataframe to perform the necessary clus
 You can view the report of the final data used for analysis in the following file:
 
 ## Clustering process
+Two clustering processes are carried out:
+1. Firstly, the DBSCAN clustering algorithm is considered, which allows the use of multiple metrics. In this case, since the data we use are of longitude/latitude, we will use Harvesine's metric which is the angular distance between two points on the surface of a sphere. The first distance of each point is assumed to be the latitude, the second is the longitude, given in radians. Where the following clustering is obtained. ![GeoCluster](https://github.com/i100van/Geoeconomical-clustering/blob/main/geocluster.JPG)
+2. Secondly, we carry out the K-means method to obtain the ten clusters by using the economic measures and the cluster indicator of the previous step. In this way, we obtain groupings of nearby countries and similar economic conditions. ![Geoeconomical cluster](https://github.com/i100van/Geoeconomical-clustering/blob/main/geoeconomical.JPG)
+In this way we achieve the requested country labeling
+
+## Preparation of the output
+To finish, we will make the calculations on the requested dataframe, and we will make the requested ordering, checking the output variables in the same way as in the beginning, using the pandas report. 
