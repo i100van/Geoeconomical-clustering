@@ -25,4 +25,9 @@ Two clustering processes are carried out:
 In this way we achieve the requested country labeling
 
 ## Preparation of the output
-To finish, we will make the calculations on the requested dataframe, and we will make the requested ordering, checking the output variables in the same way as in the beginning, using the pandas report. 
+To finish, we will make the calculations on the requested dataframe, and we will make the requested ordering, checking the output variables in the same way as in the beginning, using the pandas report.
+
+## Conclusion
+I would like to emphasize the geo-economic sense of this clustering. As we can see, powers with the same economic capacity are grouped together, as well as close to each other, so we can consider groups with populations that have similar potential for spending on different products.
+
+With a cluster like this, we could segment the advertising provided to each group, considering their purchasing power and geographical proximity, which usually translates into similar living habits and consumer trends (improving the selection of the target of our product).
