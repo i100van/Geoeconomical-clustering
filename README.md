@@ -8,7 +8,9 @@ First, a search was made for the data sources to be used for the analysis. Two s
 
 ## Data cleaning and processing
 After obtaining the data, we proceed to visualize it, in search of possible anomalous or missing values. To do this we use the report provided by the Pandas library.
+
 Null values are observed, which are eliminated by the consideration of the enunciation, but in an environment of greater exigency as far as the results, we would look for a treatment adapted for these values (For example, to look for other sources that could complement these data to us). In addition, since we obtained more values than necessary from the World Bank, they are no longer considered.
+
 Finally, we unified the data in a single Dataframe to perform the necessary clustering processes.
 You can view the report of the final data used for analysis in the following file:
 
